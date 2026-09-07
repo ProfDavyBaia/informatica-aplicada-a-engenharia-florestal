@@ -20,8 +20,8 @@ website:
         text: Aulas
       - href: index.qmd#ementa
         text: Ementa
-      - href: index.qmd#cronograma
-        text: Cronograma
+      #- href: index.qmd#cronograma
+      #  text: Cronograma
       - href: index.qmd#avaliacao
         text: Avaliação
       - href: index.qmd#bibliografia

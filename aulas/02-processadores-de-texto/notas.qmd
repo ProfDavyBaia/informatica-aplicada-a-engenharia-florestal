@@ -22,3 +22,9 @@ padronização e a geração automática de sumários em documentos longos. É
 importante também revisar a ortografia, usar o controle de alterações ao
 revisar em colaboração, e exportar a versão final em PDF para
 compartilhamento.
+
+## Material da Aula
+
+- [Atividades](atividades.qmd) — resumo e link de download das duas atividades
+- [Gabaritos](gabaritos.qmd) — modelos de referência das duas atividades
+

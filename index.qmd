@@ -55,10 +55,13 @@ Funções de um sistema operacional e os principais sistemas usados hoje.
 Edição e formatação de documentos técnicos e relatórios.
 
 <span class="links">[Slides](aulas/02-processadores-de-texto/aula.html) ·
-[Notas](aulas/02-processadores-de-texto/notas.qmd)</span>
+[Notas](aulas/02-processadores-de-texto/notas.qmd) ·
+[Atividades](aulas/02-processadores-de-texto/atividades.qmd) ·
+[Gabaritos](aulas/02-processadores-de-texto/gabaritos.qmd)</span>
 </div>
 :::
 
+<!--
 :::{.aula-card}
 <div class="numero">03</div>
 <div>
@@ -118,6 +121,7 @@ Introdução a SIG e seu uso no manejo e monitoramento florestal.
 [Notas](aulas/07-sig/notas.qmd)</span>
 </div>
 :::
+-->
 
 ## Ementa {#ementa}
 
@@ -131,9 +135,11 @@ Introdução a SIG e seu uso no manejo e monitoramento florestal.
 7. Informática na Propriedade Rural
 8. Noções de Sistemas de Informação Geográfica
 
+
+<!--
 ## Cronograma {#cronograma}
 
-<!-- TODO: preencher a coluna Data quando o calendário do semestre for confirmado -->
+TODO: preencher a coluna Data quando o calendário do semestre for confirmado
 
 | Semana | Data | Tema |
 |:------:|------|------|
@@ -145,6 +151,9 @@ Introdução a SIG e seu uso no manejo e monitoramento florestal.
 | 6 |  | Redes de Computadores e Internet |
 | 7 |  | Informática na Propriedade Rural |
 | 8 |  | Noções de Sistemas de Informação Geográfica |
+-->
+
+
 
 ## Avaliação {#avaliacao}
 
@@ -164,6 +173,6 @@ Introdução a SIG e seu uso no manejo e monitoramento florestal.
 
 **Prof. Davy Baia** — UFAL, Campus CECA (Rio Largo).
 
-Dúvidas: [davybaia@gmail.com](mailto:davybaia@gmail.com)
+Dúvidas: [davy.baia@ceca.ufal.br](mailto:davy.baia@ceca.ufal.br)
 
 :::

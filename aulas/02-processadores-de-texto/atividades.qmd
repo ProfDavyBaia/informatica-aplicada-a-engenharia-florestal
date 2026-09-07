@@ -1,0 +1,26 @@
+---
+title: "Atividades — Processadores de Texto"
+---
+
+Duas atividades práticas de formatação em editor de texto. Escolha o editor
+de sua preferência (Microsoft Word, LibreOffice Writer, Google Docs, WPS
+Writer ou outro) e reproduza a página indicada em cada uma.
+
+## Atividade 1 — Formatação Geral
+
+Pratique os recursos básicos de formatação: título centralizado, negrito,
+itálico, sublinhado, alinhamento justificado, lista com marcadores, lista
+numerada e uma tabela 3 × 3 com bordas e cor de preenchimento no cabeçalho.
+
+[Baixar Atividade 1 (PDF)](material/Atividade_Editor_de_Texto.pdf)
+
+## Atividade 2 — Inventário Florestal
+
+Mesma prática de formatação, agora no contexto de um relatório de
+levantamento florestal: descrição do levantamento (com negrito, itálico e
+sublinhado), lista de equipamentos, etapas numeradas e uma tabela com os
+dados coletados (espécie, DAP, altura).
+
+[Baixar Atividade 2 (PDF)](material/Atividade_Editor_de_Texto_02.pdf)
+
+**Entrega:** próxima aula (15/09) trazer o arquivo editável (.docx, .odt ou equivalente) com a atividade resolvida.

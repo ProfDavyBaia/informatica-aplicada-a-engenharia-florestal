@@ -1,0 +1,8 @@
+---
+title: "Gabaritos — Processadores de Texto"
+---
+
+Modelos de referência das atividades de formatação em editor de texto.
+
+- [Gabarito — Atividade 1: Formatação Geral (PDF)](material/Gabarito_Editor_de_Texto.pdf)
+<!-- - [Gabarito — Atividade 2: Inventário Florestal (PDF)](material/Gabarito_Editor_de_Texto_02.pdf) -->

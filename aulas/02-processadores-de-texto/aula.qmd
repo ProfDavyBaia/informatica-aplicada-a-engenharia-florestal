@@ -25,6 +25,11 @@ format:
 - Revisão ortográfica e controle de alterações
 - Exportação para PDF para compartilhamento final
 
+## Atividades
+
+- [Atividades](atividades.qmd) — as duas atividades práticas, com um resumo de cada
+- [Gabaritos](gabaritos.qmd) — modelos de referência
+
 ## Dúvidas?
 
-[davybaia@gmail.com](mailto:davybaia@gmail.com)
+[davy.baia@ceca.ufal.br](mailto:davy.baia@ceca.ufal.br)

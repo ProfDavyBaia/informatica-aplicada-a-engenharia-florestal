@@ -1,3 +1,17 @@
+/* Cor desta disciplina (Informática Aplicada à Engenharia Florestal).
+   Em cada site de curso, mude só --cor-disciplina. */
+:root {
+  --cor-disciplina:rgb(24, 89, 65);
+}
+
+.navbar {
+  background-color: var(--cor-disciplina) !important;
+}
+
+[data-bs-theme="dark"] .navbar {
+  background-color: color-mix(in srgb, var(--cor-disciplina) 75%, black) !important;
+}
+
 /* Rolagem suave ao clicar nos links do menu (âncoras #aulas, #ementa...) */
 html {
   scroll-behavior: smooth;
