@@ -1,0 +1,27 @@
+---
+title: "Notas — Aula 01: Sistemas Operacionais"
+---
+
+## O que é um Sistema Operacional?
+
+O sistema operacional (SO) é o software responsável por gerenciar os
+recursos de hardware de um computador (processador, memória, disco,
+periféricos) e por fornecer uma interface entre o usuário e a máquina. Sem
+um SO, os demais programas (aplicativos) não teriam como acessar o
+hardware.
+
+## Principais Sistemas Operacionais
+
+- **Windows**: SO proprietário da Microsoft, o mais usado em computadores
+  pessoais no Brasil.
+- **Linux**: núcleo (kernel) livre, usado em diversas distribuições
+  (Ubuntu, Debian, Fedora etc.), comum em servidores e em uso técnico.
+- **macOS**: SO da Apple, usado nos computadores Mac.
+- Sistemas móveis: Android (Google) e iOS (Apple).
+
+## Organização de Arquivos e Pastas
+
+Os SOs organizam arquivos em uma estrutura hierárquica de pastas
+(diretórios). Cada arquivo tem uma extensão (`.docx`, `.xlsx`, `.pdf` etc.)
+que indica seu tipo e o programa associado a ele. Manter uma boa organização
+e nomenclatura de arquivos facilita o trabalho e evita perda de dados.

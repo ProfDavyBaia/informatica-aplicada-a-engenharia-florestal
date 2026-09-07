@@ -1,0 +1,26 @@
+---
+title: "Notas — Aula 03: Planilhas Eletrônicas"
+---
+
+## Para que servem?
+
+Planilhas eletrônicas organizam dados em uma grade de linhas e colunas,
+permitindo cálculos automáticos e análise de dados. Exemplos: Microsoft
+Excel, LibreOffice Calc e Google Sheets.
+
+## Recursos Essenciais
+
+- **Fórmulas e funções**: `=SOMA()`, `=MÉDIA()`, `=SE()`, `=PROCV()` entre
+  outras, para automatizar cálculos.
+- **Referências relativas e absolutas**: controlam como uma fórmula se
+  comporta ao ser copiada para outras células.
+- **Gráficos** e **tabelas dinâmicas**: para visualizar e resumir grandes
+  volumes de dados.
+
+## Aplicação prática
+
+Planilhas são amplamente usadas para organizar dados de produção,
+inventário florestal, controle de insumos e custos na propriedade rural. O
+exemplo de código acima (gerado com Python/matplotlib) ilustra o tipo de
+gráfico que também pode ser produzido diretamente em uma planilha
+eletrônica, a partir de dados de produção por talhão.

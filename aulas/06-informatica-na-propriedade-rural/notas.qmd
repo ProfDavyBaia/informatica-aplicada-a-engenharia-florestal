@@ -1,0 +1,26 @@
+---
+title: "Notas — Aula 06: Informática na Propriedade Rural"
+---
+
+## Da Teoria à Prática
+
+Esta aula integra os conceitos vistos ao longo da disciplina — sistemas
+operacionais, processadores de texto, planilhas eletrônicas, banco de dados
+e redes — mostrando como eles se aplicam, de forma combinada, à gestão do
+dia a dia de uma propriedade rural.
+
+## Exemplos de Uso
+
+- Controle financeiro e de custos de produção em planilhas ou softwares de
+  gestão.
+- Cadastro e histórico de talhões e áreas de manejo florestal em bancos de
+  dados.
+- Softwares específicos de gestão agropecuária e florestal.
+- Sensoriamento remoto aplicado à agricultura e à silvicultura de precisão.
+
+## Tendências
+
+O setor tem avançado com o uso de automação e Internet das Coisas (IoT) —
+sensores instalados no campo que coletam dados em tempo real —, além do uso
+de drones para monitoramento de áreas e da integração de diferentes fontes
+de dados em plataformas únicas de gestão.

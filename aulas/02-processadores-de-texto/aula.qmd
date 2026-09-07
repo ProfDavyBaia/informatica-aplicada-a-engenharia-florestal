@@ -1,0 +1,30 @@
+---
+title: "Aula 02 — Processadores de Texto"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+    css: ../../styles-slides.css
+---
+
+## Para que servem?
+
+- Criação e edição de documentos técnicos, relatórios e trabalhos
+- Exemplos: Microsoft Word, LibreOffice Writer, Google Docs
+
+## Recursos Essenciais
+
+- Formatação de texto (fonte, parágrafo, estilos)
+- Inserção de tabelas, imagens e gráficos
+- Sumário automático, cabeçalho/rodapé, numeração de página
+
+## Boas Práticas
+
+- Uso de estilos para padronizar documentos longos
+- Revisão ortográfica e controle de alterações
+- Exportação para PDF para compartilhamento final
+
+## Dúvidas?
+
+[davybaia@gmail.com](mailto:davybaia@gmail.com)

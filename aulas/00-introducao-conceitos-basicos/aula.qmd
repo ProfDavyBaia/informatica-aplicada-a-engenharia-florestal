@@ -1,0 +1,34 @@
+---
+title: "Aula 00 — Introdução à Informática e Conceitos Básicos"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+    css: ../../styles-slides.css
+---
+
+## Por que Informática na Agropecuária?
+
+- Gestão da propriedade rural cada vez mais dependente de dados
+- Ganhos de eficiência, rastreabilidade e apoio à tomada de decisão
+- Digitalização crescente no agronegócio e no setor florestal
+
+## Conceitos Básicos
+
+- Hardware x Software
+- Entrada, processamento, armazenamento e saída de dados
+- Unidades de medida: bit, byte, KB, MB, GB, TB
+
+## O que vamos estudar
+
+- Sistemas Operacionais
+- Processadores de texto e planilhas eletrônicas
+- Banco de dados
+- Redes de Computadores e Internet
+- Informática na Propriedade Rural
+- Noções de SIG
+
+## Dúvidas?
+
+[davybaia@gmail.com](mailto:davybaia@gmail.com)

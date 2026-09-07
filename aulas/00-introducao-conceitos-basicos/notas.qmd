@@ -1,0 +1,29 @@
+---
+title: "Notas — Aula 00: Introdução à Informática e Conceitos Básicos"
+---
+
+## Por que Informática na Agropecuária?
+
+A gestão de uma propriedade rural — incluindo áreas de manejo florestal —
+depende cada vez mais de dados: produtividade, custos, insumos, clima,
+localização de talhões, entre outros. A informática entra como ferramenta
+de apoio à organização desses dados e à tomada de decisão, trazendo ganhos
+de eficiência e rastreabilidade.
+
+## Conceitos Básicos
+
+- **Hardware**: os componentes físicos do computador (processador, memória,
+  disco, periféricos).
+- **Software**: os programas que rodam sobre o hardware (sistema
+  operacional, aplicativos).
+- Um computador processa dados seguindo o ciclo **entrada → processamento →
+  armazenamento → saída**.
+- Unidades de medida de informação: bit (menor unidade), byte (8 bits) e os
+  múltiplos KB, MB, GB, TB.
+
+## O que vamos estudar na disciplina
+
+Ao longo do semestre veremos: sistemas operacionais, processadores de
+texto, planilhas eletrônicas, banco de dados, redes de computadores e
+internet, aplicações de informática na propriedade rural e noções de
+Sistemas de Informação Geográfica (SIG).

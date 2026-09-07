@@ -1,0 +1,169 @@
+---
+title: "Informática Aplicada à Engenharia Florestal"
+subtitle: "Engenharia Florestal · UFAL - Campus CECA"
+---
+
+<!-- TODO: incluir o código da disciplina no subtítulo acima quando definido -->
+
+:::{.content}
+
+*Introdução ao uso da informática como ferramenta de apoio à formação e à
+prática profissional em Engenharia Florestal.*
+
+A disciplina apresenta os conceitos fundamentais da informática e suas
+principais aplicações na agropecuária e na atividade florestal — dos
+componentes básicos de um computador às ferramentas de escritório, banco de
+dados, redes e noções de Sistemas de Informação Geográfica (SIG). Ao final,
+o aluno deve ser capaz de usar essas ferramentas no apoio à gestão e às
+atividades técnicas na propriedade rural.
+
+## Aulas {#aulas}
+
+Cada aula tem *slides* (apresentação em HTML — tecla `P` entra em modo
+apresentação, `←`/`→` navegam) e *notas* (texto de referência).
+
+:::{.aula-card}
+<div class="numero">00</div>
+<div>
+<strong>Introdução à Informática e Conceitos Básicos</strong>
+
+A importância da informática na agropecuária e os conceitos fundamentais de
+hardware e software.
+
+<span class="links">[Slides](aulas/00-introducao-conceitos-basicos/aula.html) ·
+[Notas](aulas/00-introducao-conceitos-basicos/notas.qmd)</span>
+</div>
+:::
+
+:::{.aula-card}
+<div class="numero">01</div>
+<div>
+<strong>Sistemas Operacionais</strong>
+
+Funções de um sistema operacional e os principais sistemas usados hoje.
+
+<span class="links">[Slides](aulas/01-sistemas-operacionais/aula.html) ·
+[Notas](aulas/01-sistemas-operacionais/notas.qmd)</span>
+</div>
+:::
+
+:::{.aula-card}
+<div class="numero">02</div>
+<div>
+<strong>Processadores de Texto</strong>
+
+Edição e formatação de documentos técnicos e relatórios.
+
+<span class="links">[Slides](aulas/02-processadores-de-texto/aula.html) ·
+[Notas](aulas/02-processadores-de-texto/notas.qmd)</span>
+</div>
+:::
+
+:::{.aula-card}
+<div class="numero">03</div>
+<div>
+<strong>Planilhas Eletrônicas</strong>
+
+Cálculos, fórmulas e gráficos aplicados a dados da propriedade rural.
+
+<span class="links">[Slides](aulas/03-planilhas-eletronicas/aula.html) ·
+[Notas](aulas/03-planilhas-eletronicas/notas.qmd)</span>
+</div>
+:::
+
+:::{.aula-card}
+<div class="numero">04</div>
+<div>
+<strong>Banco de Dados</strong>
+
+Conceitos de organização, armazenamento e consulta de dados.
+
+<span class="links">[Slides](aulas/04-banco-de-dados/aula.html) ·
+[Notas](aulas/04-banco-de-dados/notas.qmd)</span>
+</div>
+:::
+
+:::{.aula-card}
+<div class="numero">05</div>
+<div>
+<strong>Redes de Computadores e Internet</strong>
+
+Fundamentos de redes e o uso da internet como ferramenta de trabalho.
+
+<span class="links">[Slides](aulas/05-redes-e-internet/aula.html) ·
+[Notas](aulas/05-redes-e-internet/notas.qmd)</span>
+</div>
+:::
+
+:::{.aula-card}
+<div class="numero">06</div>
+<div>
+<strong>Informática na Propriedade Rural</strong>
+
+Aplicações práticas da informática na gestão da propriedade rural.
+
+<span class="links">[Slides](aulas/06-informatica-na-propriedade-rural/aula.html) ·
+[Notas](aulas/06-informatica-na-propriedade-rural/notas.qmd)</span>
+</div>
+:::
+
+:::{.aula-card}
+<div class="numero">07</div>
+<div>
+<strong>Noções de Sistemas de Informação Geográfica</strong>
+
+Introdução a SIG e seu uso no manejo e monitoramento florestal.
+
+<span class="links">[Slides](aulas/07-sig/aula.html) ·
+[Notas](aulas/07-sig/notas.qmd)</span>
+</div>
+:::
+
+## Ementa {#ementa}
+
+1. Introdução (considerações sobre a necessidade e a importância da
+   informática na agropecuária) e Conceitos Básicos
+2. Sistemas Operacionais
+3. Processadores de Texto
+4. Planilhas Eletrônicas
+5. Banco de Dados
+6. Redes de Computadores e Internet
+7. Informática na Propriedade Rural
+8. Noções de Sistemas de Informação Geográfica
+
+## Cronograma {#cronograma}
+
+<!-- TODO: preencher a coluna Data quando o calendário do semestre for confirmado -->
+
+| Semana | Data | Tema |
+|:------:|------|------|
+| 1 |  | Introdução e Conceitos Básicos |
+| 2 |  | Sistemas Operacionais |
+| 3 |  | Processadores de Texto |
+| 4 |  | Planilhas Eletrônicas |
+| 5 |  | Banco de Dados |
+| 6 |  | Redes de Computadores e Internet |
+| 7 |  | Informática na Propriedade Rural |
+| 8 |  | Noções de Sistemas de Informação Geográfica |
+
+## Avaliação {#avaliacao}
+
+<!-- TODO: critérios, instrumentos (provas, trabalhos práticos etc.) e pesos -->
+
+## Bibliografia {#bibliografia}
+
+**Básica**
+
+<!-- TODO: referências principais -->
+
+**Complementar**
+
+<!-- TODO: referências de apoio -->
+
+## Docente {#docente}
+
+**Prof. Davy Baia** — UFAL, Campus CECA (Rio Largo).
+
+Dúvidas: [davybaia@gmail.com](mailto:davybaia@gmail.com)
+
+:::

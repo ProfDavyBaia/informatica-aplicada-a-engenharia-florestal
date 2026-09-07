@@ -1,0 +1,31 @@
+---
+title: "Aula 04 — Banco de Dados"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+    css: ../../styles-slides.css
+---
+
+## O que é um Banco de Dados?
+
+- Coleção organizada de dados, com acesso e manipulação controlados
+- Evita redundância e inconsistência de informação
+- Exemplos: MySQL, PostgreSQL, SQLite, Microsoft Access
+
+## Conceitos Básicos
+
+- Tabelas, registros e campos
+- Chave primária e chave estrangeira
+- Relacionamentos entre tabelas
+
+## Por que interessa à Engenharia Florestal?
+
+- Cadastro de talhões, espécies, inventários e coletas de campo
+- Consultas e relatórios a partir de grandes volumes de dados
+- Integração com sistemas de gestão da propriedade rural
+
+## Dúvidas?
+
+[davybaia@gmail.com](mailto:davybaia@gmail.com)

@@ -1,0 +1,39 @@
+---
+title: "Aula 03 — Planilhas Eletrônicas"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+    css: ../../styles-slides.css
+---
+
+## Para que servem?
+
+- Organização de dados em linhas e colunas
+- Cálculos automáticos com fórmulas e funções
+- Exemplos: Microsoft Excel, LibreOffice Calc, Google Sheets
+
+## Recursos Essenciais
+
+- Fórmulas (`=SOMA()`, `=MÉDIA()`, `=SE()` ...)
+- Referências relativas e absolutas
+- Gráficos e tabelas dinâmicas
+
+## Aplicação: dados de produção
+
+```{python}
+import matplotlib.pyplot as plt
+
+talhoes = ["T1", "T2", "T3", "T4"]
+producao = [12.5, 9.8, 14.2, 11.0]
+
+plt.bar(talhoes, producao)
+plt.title("Produção por talhão (exemplo)")
+plt.ylabel("m³/ha")
+plt.show()
+```
+
+## Dúvidas?
+
+[davybaia@gmail.com](mailto:davybaia@gmail.com)

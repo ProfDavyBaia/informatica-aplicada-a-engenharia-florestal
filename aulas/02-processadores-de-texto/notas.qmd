@@ -1,0 +1,24 @@
+---
+title: "Notas — Aula 02: Processadores de Texto"
+---
+
+## Para que servem?
+
+Processadores de texto são programas voltados à criação e edição de
+documentos — relatórios técnicos, trabalhos acadêmicos, ofícios etc.
+Exemplos: Microsoft Word, LibreOffice Writer e Google Docs (este último
+com edição colaborativa online).
+
+## Recursos Essenciais
+
+- Formatação de fonte, parágrafo e uso de estilos predefinidos.
+- Inserção de tabelas, imagens, gráficos e legendas.
+- Elementos automáticos: sumário, cabeçalho/rodapé, numeração de página.
+
+## Boas Práticas
+
+O uso de **estilos** (título, subtítulo, corpo de texto) facilita a
+padronização e a geração automática de sumários em documentos longos. É
+importante também revisar a ortografia, usar o controle de alterações ao
+revisar em colaboração, e exportar a versão final em PDF para
+compartilhamento.

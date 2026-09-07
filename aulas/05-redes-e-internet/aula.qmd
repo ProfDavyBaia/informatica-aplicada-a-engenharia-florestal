@@ -1,0 +1,31 @@
+---
+title: "Aula 05 — Redes de Computadores e Internet"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+    css: ../../styles-slides.css
+---
+
+## Redes de Computadores
+
+- Conjunto de dispositivos conectados que compartilham dados e recursos
+- Tipos: LAN (local), WAN (longa distância)
+- Redes com/sem fio (cabeada, Wi-Fi, dados móveis)
+
+## Internet
+
+- Rede mundial de redes interconectadas
+- Protocolos: TCP/IP, HTTP/HTTPS
+- Serviços: navegação, e-mail, nuvem, videoconferência
+
+## Aplicações no Meio Rural
+
+- Conectividade em áreas rurais (satélite, rádio, 4G/5G)
+- Acesso remoto a sistemas de gestão e monitoramento
+- Compartilhamento de dados de campo em tempo real
+
+## Dúvidas?
+
+[davybaia@gmail.com](mailto:davybaia@gmail.com)

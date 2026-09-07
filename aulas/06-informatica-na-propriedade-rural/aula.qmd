@@ -1,0 +1,31 @@
+---
+title: "Aula 06 — Informática na Propriedade Rural"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+    css: ../../styles-slides.css
+---
+
+## Da Teoria à Prática
+
+- Integração dos conceitos vistos: SO, editores, planilhas, banco de dados, redes
+- Aplicação direta na gestão da propriedade rural
+
+## Exemplos de Uso
+
+- Controle financeiro e de custos de produção
+- Cadastro e histórico de talhões/áreas de manejo
+- Softwares de gestão agropecuária e florestal
+- Sensoriamento remoto e agricultura/silvicultura de precisão
+
+## Tendências
+
+- Automação e IoT (sensores no campo)
+- Uso de drones para monitoramento
+- Integração de dados em plataformas de gestão
+
+## Dúvidas?
+
+[davybaia@gmail.com](mailto:davybaia@gmail.com)

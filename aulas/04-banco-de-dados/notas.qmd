@@ -1,0 +1,28 @@
+---
+title: "Notas — Aula 04: Banco de Dados"
+---
+
+## O que é um Banco de Dados?
+
+Um banco de dados é uma coleção organizada de dados, estruturada para
+permitir acesso, gerenciamento e atualização eficientes, com controle de
+redundância e inconsistência. Exemplos de sistemas gerenciadores de banco
+de dados (SGBD): MySQL, PostgreSQL, SQLite e Microsoft Access.
+
+## Conceitos Básicos
+
+- **Tabela**: conjunto de registros organizados em linhas e colunas.
+- **Registro** (linha) e **campo** (coluna): a unidade de dado individual e
+  o atributo que ele representa.
+- **Chave primária**: identifica de forma única cada registro de uma
+  tabela.
+- **Chave estrangeira**: referencia a chave primária de outra tabela,
+  criando relacionamentos entre elas.
+
+## Por que interessa à Engenharia Florestal?
+
+Bancos de dados são úteis para organizar cadastros de talhões, espécies,
+inventários florestais e coletas de campo, permitindo consultas e relatórios
+rápidos mesmo com grandes volumes de dados — uma base importante para
+sistemas de gestão da propriedade rural e para a integração posterior com
+ferramentas de SIG.

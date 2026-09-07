@@ -1,0 +1,27 @@
+---
+title: "Notas — Aula 05: Redes de Computadores e Internet"
+---
+
+## Redes de Computadores
+
+Uma rede de computadores é um conjunto de dispositivos conectados entre si
+para compartilhar dados e recursos (impressoras, arquivos, acesso à
+internet). As redes podem ser classificadas, por exemplo, em **LAN** (rede
+local, como a de um escritório) e **WAN** (rede de longa distância, como a
+própria internet), e podem ser cabeadas ou sem fio (Wi-Fi, dados móveis).
+
+## Internet
+
+A internet é uma rede mundial de redes interconectadas, que utiliza um
+conjunto de protocolos — com destaque para o **TCP/IP** (endereçamento e
+transporte de dados) e o **HTTP/HTTPS** (transferência de páginas web). A
+partir dela são oferecidos serviços como navegação, e-mail, armazenamento
+em nuvem e videoconferência.
+
+## Aplicações no Meio Rural
+
+A conectividade em áreas rurais costuma depender de tecnologias como
+internet via satélite, rádio ou redes móveis (4G/5G), muitas vezes com
+maior limitação do que em áreas urbanas. Ainda assim, ela viabiliza o
+acesso remoto a sistemas de gestão, o monitoramento de propriedades e o
+compartilhamento de dados coletados em campo.

@@ -1,0 +1,27 @@
+---
+title: "Notas — Aula 07: Noções de Sistemas de Informação Geográfica"
+---
+
+## O que é um SIG?
+
+Um Sistema de Informação Geográfica (SIG) é um conjunto de ferramentas para
+coletar, armazenar, analisar e apresentar dados georreferenciados — ou
+seja, dados associados a uma localização no espaço. Na prática, um SIG une
+um banco de dados a informações espaciais representadas em mapas.
+
+## Componentes de um SIG
+
+- **Dados vetoriais**: representados por pontos, linhas e polígonos (por
+  exemplo, o limite de um talhão).
+- **Dados raster**: representados por uma grade de células, como uma
+  imagem de satélite ou de drone.
+- Um mapa em um SIG é montado a partir da sobreposição de várias
+  **camadas** (layers) de dados vetoriais e/ou raster.
+- Exemplos de software: QGIS (livre) e ArcGIS (proprietário).
+
+## Aplicações no Manejo Florestal
+
+SIGs são amplamente usados na Engenharia Florestal para delimitar e
+cadastrar talhões e áreas de manejo, cruzar dados de imagens de satélite ou
+drone com informações coletadas em campo, e apoiar o planejamento e o
+monitoramento de áreas florestais ao longo do tempo.
