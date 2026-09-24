@@ -3,6 +3,7 @@ project:
   render:
     - "*.qmd"
     - "aulas/**/*.qmd"
+    - "avaliacoes/**/*.qmd"
 
 # engine jupyter: necessário porque a disciplina tem blocos ```{python}```.
 engine: jupyter

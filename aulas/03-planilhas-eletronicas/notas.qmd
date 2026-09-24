@@ -17,6 +17,16 @@ Excel, LibreOffice Calc e Google Sheets.
 - **Gráficos** e **tabelas dinâmicas**: para visualizar e resumir grandes
   volumes de dados.
 
+## Boas Práticas
+
+Nomear intervalos de células e manter cabeçalhos claros nas colunas ajuda a
+entender a planilha depois de um tempo. Usar referências absolutas
+(`$A$1`) para valores fixos (como uma taxa ou um preço) evita que a
+fórmula "quebre" ao ser copiada para outras células. Recursos como
+validação de dados (restringir o que pode ser digitado em uma célula) e
+congelamento de painéis (manter a linha de cabeçalho visível ao rolar)
+tornam planilhas longas mais fáceis de usar e menos sujeitas a erro.
+
 ## Aplicação prática
 
 Planilhas são amplamente usadas para organizar dados de produção,
@@ -24,3 +34,8 @@ inventário florestal, controle de insumos e custos na propriedade rural. O
 exemplo de código acima (gerado com Python/matplotlib) ilustra o tipo de
 gráfico que também pode ser produzido diretamente em uma planilha
 eletrônica, a partir de dados de produção por talhão.
+
+## Material da Aula
+
+- [Atividades](atividades.qmd) — resumo das duas atividades práticas
+- [Gabaritos](gabaritos.qmd) — fórmulas e resultados de referência

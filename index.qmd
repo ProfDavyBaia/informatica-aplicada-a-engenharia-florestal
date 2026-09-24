@@ -61,7 +61,6 @@ Edição e formatação de documentos técnicos e relatórios.
 </div>
 :::
 
-<!--
 :::{.aula-card}
 <div class="numero">03</div>
 <div>
@@ -70,10 +69,13 @@ Edição e formatação de documentos técnicos e relatórios.
 Cálculos, fórmulas e gráficos aplicados a dados da propriedade rural.
 
 <span class="links">[Slides](aulas/03-planilhas-eletronicas/aula.html) ·
-[Notas](aulas/03-planilhas-eletronicas/notas.qmd)</span>
+[Notas](aulas/03-planilhas-eletronicas/notas.qmd) ·
+[Atividades](aulas/03-planilhas-eletronicas/atividades.qmd) ·
+[Gabaritos](aulas/03-planilhas-eletronicas/gabaritos.qmd)</span>
 </div>
 :::
 
+<!--
 :::{.aula-card}
 <div class="numero">04</div>
 <div>
@@ -157,7 +159,10 @@ TODO: preencher a coluna Data quando o calendário do semestre for confirmado
 
 ## Avaliação {#avaliacao}
 
-<!-- TODO: critérios, instrumentos (provas, trabalhos práticos etc.) e pesos -->
+<!-- TODO: demais critérios, instrumentos e pesos -->
+
+- [Atividade Avaliativa 1 — Aulas 00 a 03](avaliacoes/avaliativa-01-aulas-00-03.qmd)
+  (trabalho em grupo de 3 integrantes, 10,0 pontos)
 
 ## Bibliografia {#bibliografia}
 

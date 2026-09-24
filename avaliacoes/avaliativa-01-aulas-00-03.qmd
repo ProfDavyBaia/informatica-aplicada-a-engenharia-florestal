@@ -1,0 +1,168 @@
+---
+title: "Atividade Avaliativa 1"
+subtitle: "Conceitos Básicos, Sistemas Operacionais, Processador de Texto e Planilha Eletrônica"
+---
+
+**Disciplina:** Informática Aplicada à Engenharia Florestal — UFAL, Campus CECA
+
+**Docente:** Prof. Davy Baia
+
+**Formato:** trabalho em **grupo de 4 integrantes**
+
+**Valor total:** 10,0 pontos
+
+## Instruções Gerais
+
+Esta atividade deve ser realizada em **grupos de 4 integrantes** e cobre o
+conteúdo das Aulas 00 a 03. É composta por 4 tarefas exclusivamente
+práticas — cada uma produz um arquivo de evidência que deve ser entregue
+ao final.
+
+- Use o programa de sua preferência em cada etapa (Windows, macOS ou
+  Linux; Microsoft Office, LibreOffice, Google Workspace ou equivalente).
+- Sempre que a tarefa pedir um print de tela, capture a janela inteira e
+  de forma legível.
+- Nomeie os arquivos exatamente como indicado em cada tarefa — isso
+  facilita a correção.
+- Identifiquem os 4 integrantes do grupo (nome completo e matrícula) na
+  capa do relatório da Tarefa 3.
+- A distribuição de valor por tarefa está na tabela abaixo.
+
+| Tarefa | Tema (aula) | Valor |
+|---|---|:---:|
+| Tarefa 1 | Conceitos Básicos (Aula 00) | 1,5 |
+| Tarefa 2 | Sistemas Operacionais (Aula 01) | 2,0 |
+| Tarefa 3 | Processador de Texto (Aula 02) | 3,0 |
+| Tarefa 4 | Planilha Eletrônica (Aula 03) | 3,5 |
+| **Total** | | **10,0** |
+
+## Tarefa 1 — Levantamento do Equipamento
+
+**Tema:** Conceitos Básicos (Aula 00) · **Valor:** 1,5 ponto
+
+Escolham o computador de um dos integrantes do grupo e abram as
+informações do sistema:
+
+- Windows: Configurações → Sistema → Sobre (ou Este Computador →
+  Propriedades)
+- macOS: menu Apple → Sobre Este Mac
+- Linux: Configurações → Sobre, ou os comandos `lscpu` e `free -h` no
+  terminal
+
+Com base no que encontrarem, respondam:
+
+1. Qual o modelo/tipo do processador?
+2. Qual a quantidade de memória RAM instalada? Convertam esse valor
+   também para MB.
+3. Qual a capacidade total de armazenamento (HD/SSD) e o espaço livre?
+4. Qual o sistema operacional instalado e sua versão?
+5. Para cada item das perguntas 1 a 4, classifiquem-o como hardware ou
+   software.
+
+**Entregável:** um print de tela da janela de informações do sistema,
+mais as respostas de 1 a 5 (podem ir no mesmo documento da Tarefa 3, em
+uma seção própria, ou em um arquivo separado).
+
+## Tarefa 2 — Organização de Arquivos e Pastas
+
+**Tema:** Sistemas Operacionais (Aula 01) · **Valor:** 2,0 pontos
+
+Criem, no computador escolhido, a seguinte estrutura de pastas para um
+projeto fictício de inventário florestal:
+
+```
+Inventario_Talhao_04/
+├── 01_Documentos/
+├── 02_Planilhas/
+├── 03_Fotos/
+└── 04_Relatorios/
+```
+
+6. Em `02_Planilhas/`, salvem a planilha da Tarefa 4 com o nome
+   `producao_talhao04.xlsx`.
+7. Em `04_Relatorios/`, salvem o relatório da Tarefa 3 com o nome
+   `relatorio_inventario_talhao03.pdf`.
+8. Em `01_Documentos/` e `03_Fotos/`, criem um arquivo de texto vazio
+   (`.txt`) só para representar onde ficariam os documentos e fotos do
+   projeto.
+9. Verifiquem as propriedades de um dos arquivos (tamanho, data de
+   modificação e extensão) e anotem esses três dados.
+
+**Entregável:** um print de tela mostrando a árvore de pastas
+(Explorador de Arquivos ou Finder, com as pastas expandidas) e os três
+dados de propriedades anotados.
+
+## Tarefa 3 — Relatório Técnico de Inventário
+
+**Tema:** Processador de Texto (Aula 02) · **Valor:** 3,0 pontos
+
+Usando um processador de texto (Word, LibreOffice Writer, Google Docs ou
+similar), produzam um relatório técnico curto (1 a 2 páginas) sobre um
+inventário florestal fictício, contendo obrigatoriamente:
+
+- Título centralizado e um subtítulo
+- Pelo menos 2 níveis de título usando estilos (Título 1, Título 2) —
+  não formatação manual do texto
+- Um parágrafo de introdução com uso de negrito e itálico
+- Uma lista numerada com as etapas do inventário (ex.: planejamento,
+  alocação das parcelas, medição, análise)
+- Uma tabela com no mínimo 4 linhas × 3 colunas contendo dados de
+  parcelas (ex.: Parcela, Espécie predominante, Nº de árvores)
+- Cabeçalho ou rodapé com o nome dos 4 integrantes do grupo e numeração
+  de página
+- Sumário automático, gerado a partir dos estilos de título usados
+
+**Entregável:** arquivo exportado em PDF, nomeado
+`relatorio_inventario_talhao03.pdf`.
+
+## Tarefa 4 — Planilha de Produção por Talhão
+
+**Tema:** Planilha Eletrônica (Aula 03) · **Valor:** 3,5 pontos
+
+Montem, em uma planilha eletrônica (Excel, LibreOffice Calc, Google
+Sheets ou similar), a tabela abaixo:
+
+| Talhão | Espécie | Área (ha) | Produção (m³) |
+|:------:|---------|:---------:|:--------------:|
+| T1 | Eucalipto | 5,0 | 62,5 |
+| T2 | Eucalipto | 4,2 | 47,0 |
+| T3 | Pinus | 5,8 | 68,9 |
+| T4 | Pinus | 4,6 | 51,8 |
+
+A partir dessa tabela, o grupo deve:
+
+a) Criar a coluna **Produtividade (m³/ha)**, calculada com fórmula
+   usando referência relativa (Produção ÷ Área)
+b) Calcular o **Total** de área e o **Total** de produção com
+   `=SOMA()`
+c) Calcular a **Produtividade média** da propriedade com uma fórmula —
+   não digitar o valor manualmente
+d) Em uma célula separada, definir um **Preço por m³ (R\$)** fictício
+   e, usando referência absoluta, calcular a **Receita Estimada (R\$)**
+   de cada talhão (Produção × Preço)
+e) Usar `=SE()` para marcar cada talhão como "Acima da média" ou
+   "Abaixo da média" com base na Produtividade
+f) Construir um **gráfico de colunas** comparando a Produtividade
+   (m³/ha) entre os talhões, com título e legendas dos eixos
+
+**Entregável:** arquivo `producao_talhao04.xlsx` (ou `.ods`), com as
+fórmulas visíveis nas células — não apenas os valores calculados.
+
+## Entrega Final
+
+Compactem todos os arquivos pedidos em uma única pasta `.zip`, nomeada
+`AtividadeAvaliativa1.zip`, contendo:
+
+- print da Tarefa 1 (imagem)
+- print da Tarefa 2 (imagem)
+- `relatorio_inventario_talhao03.pdf`
+- `producao_talhao04.xlsx`
+
+**Prazo:** 29 de setembro de 2026, até às 23:59.
+
+**Modalidade:** entrega via e-mail: davy.baia@ceca.ufal.br
+
+**Assunto:** [2026.2.IEF] - Trabalho Avaliativo 01.
+
+**Corpo do e-mail:** Nomes dos integrantes em ordem alfabética.
+

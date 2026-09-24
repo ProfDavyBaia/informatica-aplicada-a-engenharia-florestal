@@ -1,0 +1,46 @@
+---
+title: "Atividades — Planilhas Eletrônicas"
+---
+
+Duas atividades práticas em planilha eletrônica. Use o programa de sua
+preferência (Microsoft Excel, LibreOffice Calc, Google Sheets ou outro) e
+salve o arquivo com fórmulas — não apenas os valores calculados.
+
+## Atividade 1 — Fórmulas e Referências
+
+Monte uma planilha de controle de insumos com as colunas **Item**,
+**Quantidade**, **Preço Unitário (R$)** e **Subtotal (R$)**, com pelo
+menos 5 itens.
+
+- Calcule o **Subtotal** de cada linha com uma fórmula que use
+  **referência relativa** (`=B2*C2`).
+- Em uma célula separada, defina o **Custo por unidade de área (R$/ha)**
+  e use **referência absoluta** (`$` fixando linha e/ou coluna) em uma
+  nova coluna **Custo/ha** que multiplique o Subtotal por essa célula.
+- Adicione uma linha de **Total** com `=SOMA()` e uma célula com a
+  **Média** do Subtotal com `=MÉDIA()`.
+- Use `=SE()` para marcar com "Acima da média" ou "Abaixo da média" os
+  itens cujo Subtotal esteja acima ou abaixo da média calculada.
+
+## Atividade 2 — Produção por Talhão
+
+Reproduza e amplie a tabela de produção usada em aula:
+
+| Talhão | Área (ha) | Produção (m³) |
+|:------:|:---------:|:--------------:|
+| T1 | 5.0 | 12.5 |
+| T2 | 4.2 | 9.8  |
+| T3 | 5.8 | 14.2 |
+| T4 | 4.6 | 11.0 |
+
+- Adicione uma coluna **Produtividade (m³/ha)** calculada com fórmula
+  (Produção ÷ Área), usando referência relativa.
+- Calcule o **Total** de produção e a **Produtividade média** da
+  propriedade.
+- Construa um **gráfico de colunas** comparando a produtividade
+  (m³/ha) entre os talhões — o mesmo tipo de gráfico gerado por código
+  na aula, agora feito diretamente na planilha.
+
+**Entrega:** arquivo editável (.xlsx, .ods ou equivalente) com as duas
+atividades resolvidas.
+<!-- TODO: definir e preencher a data de entrega -->

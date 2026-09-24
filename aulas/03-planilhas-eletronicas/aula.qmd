@@ -20,6 +20,13 @@ format:
 - Referências relativas e absolutas
 - Gráficos e tabelas dinâmicas
 
+## Boas Práticas
+
+- Nomear intervalos e usar cabeçalhos claros nas colunas
+- Preferir referências absolutas (`$A$1`) em valores fixos usados por várias fórmulas
+- Validação de dados para evitar erros de digitação
+- Congelar painéis (linha de cabeçalho) em planilhas longas
+
 ## Aplicação: dados de produção
 
 ```{python}
@@ -33,6 +40,11 @@ plt.title("Produção por talhão (exemplo)")
 plt.ylabel("m³/ha")
 plt.show()
 ```
+
+## Atividades
+
+- [Atividades](atividades.qmd) — duas atividades práticas em planilha
+- [Gabaritos](gabaritos.qmd) — fórmulas e resultados de referência
 
 ## Dúvidas?
 

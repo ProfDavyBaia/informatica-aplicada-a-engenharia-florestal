@@ -1,0 +1,33 @@
+---
+title: "Gabaritos — Planilhas Eletrônicas"
+---
+
+Fórmulas e resultados de referência para as duas atividades. Os valores
+exatos da Atividade 1 dependem dos itens escolhidos por cada aluno — o
+que se avalia é o uso correto de cada tipo de fórmula.
+
+## Atividade 1 — Fórmulas e Referências
+
+| Coluna / célula | Fórmula esperada |
+|---|---|
+| Subtotal (linha 2) | `=B2*C2` (referência relativa, copiada para as demais linhas) |
+| Custo/ha (linha 2) | `=D2*$G$1` (referência absoluta para a célula do custo por hectare) |
+| Total | `=SOMA(D2:D6)` |
+| Média | `=MÉDIA(D2:D6)` |
+| Acima/Abaixo da média | `=SE(D2>MÉDIA($D$2:$D$6);"Acima da média";"Abaixo da média")` |
+
+## Atividade 2 — Produção por Talhão
+
+| Talhão | Área (ha) | Produção (m³) | Produtividade (m³/ha) |
+|:------:|:---------:|:--------------:|:----------------------:|
+| T1 | 5.0 | 12.5 | `=C2/B2` → 2.50 |
+| T2 | 4.2 | 9.8  | `=C3/B3` → 2.33 |
+| T3 | 5.8 | 14.2 | `=C4/B4` → 2.45 |
+| T4 | 4.6 | 11.0 | `=C5/B5` → 2.39 |
+
+- **Total de produção**: `=SOMA(C2:C5)` → 47.5 m³
+- **Produtividade média da propriedade**: `=SOMA(C2:C5)/SOMA(B2:B5)`
+  → ≈ 2.42 m³/ha (total de produção dividido pelo total de área — mais
+  correto do que a média simples das produtividades por talhão)
+- **Gráfico**: colunas com o Talhão no eixo X e a Produtividade
+  (m³/ha) no eixo Y, igual ao gráfico gerado por código na aula.
