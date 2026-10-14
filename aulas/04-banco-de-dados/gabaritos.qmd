@@ -1,0 +1,32 @@
+---
+title: "Gabaritos — Banco de Dados"
+---
+
+Fórmula e respostas de referência para a atividade de Banco de Talhões e
+Medições.
+
+## Fórmula PROCV (aba Medicoes)
+
+| Coluna | Fórmula esperada |
+|---|---|
+| Produção do Talhão (linha 2) | `=PROCV(B2;Talhoes!$A$2:$C$5;3;FALSO)` (busca o `TalhaoID` da linha, na aba Talhoes, e retorna a 3ª coluna — Produção) |
+
+A fórmula deve ser copiada para as demais linhas da aba Medicoes, sempre
+retornando a produção do talhão correspondente — M1 e M2 retornam 12,5
+(T1), M3 e M4 retornam 9,8 (T2), e assim por diante.
+
+## Perguntas Conceituais
+
+1. **Chave primária**: `TalhaoID` na aba Talhoes; `MedicaoID` na aba
+   Medicoes.
+2. **Chave estrangeira**: `TalhaoID` na aba Medicoes, referenciando a
+   aba Talhoes.
+3. **Relacionamento**: **1:N** — cada talhão pode ter várias medições de
+   campo, mas cada medição pertence a um único talhão.
+4. Numa planilha comum, nada impede digitar `TalhaoID` = "T9": o `PROCV`
+   simplesmente retornaria um erro (`#N/D`) porque não encontra esse
+   valor na aba Talhoes, mas o dado "inválido" continua lá. Em um SGBD de
+   verdade (Access, LibreOffice Base), o relacionamento entre as tabelas
+   é definido explicitamente e o sistema **bloqueia** esse cadastro,
+   garantindo a integridade referencial automaticamente — é uma das
+   principais vantagens de um banco de dados sobre uma planilha.

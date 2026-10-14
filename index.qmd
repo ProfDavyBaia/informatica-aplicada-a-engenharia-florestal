@@ -75,7 +75,6 @@ Cálculos, fórmulas e gráficos aplicados a dados da propriedade rural.
 </div>
 :::
 
-<!--
 :::{.aula-card}
 <div class="numero">04</div>
 <div>
@@ -84,10 +83,13 @@ Cálculos, fórmulas e gráficos aplicados a dados da propriedade rural.
 Conceitos de organização, armazenamento e consulta de dados.
 
 <span class="links">[Slides](aulas/04-banco-de-dados/aula.html) ·
-[Notas](aulas/04-banco-de-dados/notas.qmd)</span>
+[Notas](aulas/04-banco-de-dados/notas.qmd) ·
+[Atividades](aulas/04-banco-de-dados/atividades.qmd) ·
+[Gabaritos](aulas/04-banco-de-dados/gabaritos.qmd)</span>
 </div>
 :::
 
+<!--
 :::{.aula-card}
 <div class="numero">05</div>
 <div>

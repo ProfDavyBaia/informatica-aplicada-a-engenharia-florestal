@@ -7,7 +7,8 @@ title: "Notas — Aula 04: Banco de Dados"
 Um banco de dados é uma coleção organizada de dados, estruturada para
 permitir acesso, gerenciamento e atualização eficientes, com controle de
 redundância e inconsistência. Exemplos de sistemas gerenciadores de banco
-de dados (SGBD): MySQL, PostgreSQL, SQLite e Microsoft Access.
+de dados (SGBD): MySQL, PostgreSQL, SQLite, Microsoft Access e LibreOffice
+Base.
 
 ## Conceitos Básicos
 
@@ -15,9 +16,31 @@ de dados (SGBD): MySQL, PostgreSQL, SQLite e Microsoft Access.
 - **Registro** (linha) e **campo** (coluna): a unidade de dado individual e
   o atributo que ele representa.
 - **Chave primária**: identifica de forma única cada registro de uma
-  tabela.
+  tabela (ex.: o código de um talhão).
 - **Chave estrangeira**: referencia a chave primária de outra tabela,
-  criando relacionamentos entre elas.
+  criando relacionamentos entre elas (ex.: o código do talhão repetido na
+  tabela de medições).
+
+## Tipos de Relacionamento
+
+- **1:1**: um registro de uma tabela se relaciona com no máximo um
+  registro de outra (pouco comum).
+- **1:N**: um registro de uma tabela se relaciona com vários registros de
+  outra — por exemplo, um talhão pode ter várias medições de campo ao
+  longo do tempo. É o tipo mais comum.
+- **N:N**: vários registros de uma tabela se relacionam com vários
+  registros de outra (geralmente resolvido com uma tabela intermediária).
+
+## Planilha × Banco de Dados
+
+Uma planilha com várias abas pode até parecer um banco de dados, mas as
+abas não têm relação automática entre si — cabe a quem preenche manter os
+dados consistentes. Em um banco de dados de verdade, os relacionamentos
+são definidos explicitamente e o próprio sistema garante a **integridade
+referencial**: por exemplo, não deixa cadastrar uma medição referenciando
+um talhão que não existe. Nesta aula vamos simular esse relacionamento
+dentro da planilha, usando a fórmula `PROCV` para "buscar" dados de uma
+aba a partir de outra.
 
 ## Por que interessa à Engenharia Florestal?
 
@@ -26,3 +49,8 @@ inventários florestais e coletas de campo, permitindo consultas e relatórios
 rápidos mesmo com grandes volumes de dados — uma base importante para
 sistemas de gestão da propriedade rural e para a integração posterior com
 ferramentas de SIG.
+
+## Material da Aula
+
+- [Atividades](atividades.qmd) — banco de talhões e medições, simulado em planilha
+- [Gabaritos](gabaritos.qmd) — fórmula e respostas de referência

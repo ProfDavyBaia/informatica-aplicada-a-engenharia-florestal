@@ -1,0 +1,66 @@
+---
+title: "Atividades — Banco de Dados"
+---
+
+Nesta atividade vocês vão simular um pequeno banco de dados relacional
+usando a planilha eletrônica, mesmo sem instalar um SGBD de verdade: as
+**abas** da planilha fazem o papel das **tabelas**, e uma fórmula `PROCV`
+faz o papel do **relacionamento** entre elas.
+
+## Atividade — Banco de Talhões e Medições
+
+**Objetivo:** aplicar na prática os conceitos de tabela, registro, campo,
+chave primária e chave estrangeira.
+
+### 1. Aba "Talhoes" (reaproveitando a tabela da Aula 03)
+
+| TalhaoID | Área (ha) | Produção (m³) |
+|:--------:|:---------:|:--------------:|
+| T1 | 5.0 | 12.5 |
+| T2 | 4.2 | 9.8  |
+| T3 | 5.8 | 14.2 |
+| T4 | 4.6 | 11.0 |
+
+`TalhaoID` é a **chave primária** desta tabela — cada talhão aparece uma
+única vez.
+
+### 2. Aba "Medicoes"
+
+Crie uma segunda aba com duas medições de campo para cada talhão:
+
+| MedicaoID | TalhaoID | Data | DAP (cm) | Altura (m) |
+|:---------:|:--------:|:----:|:--------:|:----------:|
+| M1 | T1 | 10/03 | 18,5 | 22,0 |
+| M2 | T1 | 10/03 | 19,1 | 22,4 |
+| M3 | T2 | 10/03 | 21,2 | 24,5 |
+| M4 | T2 | 10/03 | 20,8 | 24,1 |
+| M5 | T3 | 11/03 | 19,8 | 23,1 |
+| M6 | T3 | 11/03 | 20,3 | 23,6 |
+| M7 | T4 | 11/03 | 18,9 | 21,8 |
+| M8 | T4 | 11/03 | 19,4 | 22,2 |
+
+Aqui, `MedicaoID` é a chave primária da aba, e `TalhaoID` é a **chave
+estrangeira** — ele referencia o `TalhaoID` da aba Talhoes.
+
+### 3. Relacionando as duas abas
+
+Na aba Medicoes, crie uma coluna **Produção do Talhão (m³)** que busca
+automaticamente o valor na aba Talhoes, usando `PROCV` (ou `VLOOKUP`) a
+partir do `TalhaoID` de cada linha — sem digitar o valor manualmente.
+
+### 4. Perguntas conceituais
+
+1. Qual é a chave primária da aba Talhoes? E da aba Medicoes?
+2. Qual é a chave estrangeira da aba Medicoes, e a qual tabela ela se
+   refere?
+3. Que tipo de relacionamento existe entre Talhoes e Medicoes (1:1, 1:N
+   ou N:N)? Justifique.
+4. O que aconteceria se você tentasse cadastrar uma medição com
+   `TalhaoID` = "T9" (que não existe na aba Talhoes)? Isso seria permitido
+   em um SGBD de verdade (Access, LibreOffice Base)?
+
+**Entrega:** arquivo editável (`.xlsx`, `.ods` ou equivalente) nomeado
+`banco_talhoes_medicoes.xlsx`, com as duas abas, a fórmula `PROCV`
+visível e as respostas das perguntas conceituais (podem ir em uma
+terceira aba ou em um documento à parte).
+<!-- TODO: definir e preencher a data de entrega -->

@@ -12,19 +12,39 @@ format:
 
 - Coleção organizada de dados, com acesso e manipulação controlados
 - Evita redundância e inconsistência de informação
-- Exemplos: MySQL, PostgreSQL, SQLite, Microsoft Access
+- Exemplos de SGBD: MySQL, PostgreSQL, SQLite, Microsoft Access, LibreOffice Base
 
 ## Conceitos Básicos
 
-- Tabelas, registros e campos
-- Chave primária e chave estrangeira
-- Relacionamentos entre tabelas
+- **Tabela**: conjunto de registros organizados em linhas e colunas
+- **Registro** (linha) e **campo** (coluna)
+- **Chave primária**: identifica cada registro de forma única
+- **Chave estrangeira**: referencia a chave primária de outra tabela
+
+## Tipos de Relacionamento
+
+- **1:1** — um registro de A se relaciona com no máximo um de B
+- **1:N** — um registro de A se relaciona com vários de B (o mais comum)
+- **N:N** — vários registros de A se relacionam com vários de B
+
+## Planilha × Banco de Dados
+
+- Planilha: abas soltas, sem relação automática entre elas
+- Banco de dados: relacionamentos definidos explicitamente, com
+  **integridade referencial** (não deixa cadastrar um dado "órfão")
+- Hoje: vamos simular uma relação entre tabelas usando abas da planilha +
+  `PROCV`
 
 ## Por que interessa à Engenharia Florestal?
 
 - Cadastro de talhões, espécies, inventários e coletas de campo
 - Consultas e relatórios a partir de grandes volumes de dados
-- Integração com sistemas de gestão da propriedade rural
+- Integração com sistemas de gestão da propriedade rural e com SIG
+
+## Atividade
+
+- [Atividades](atividades.qmd) — banco de talhões e medições
+- [Gabaritos](gabaritos.qmd) — fórmula e respostas de referência
 
 ## Dúvidas?
 
