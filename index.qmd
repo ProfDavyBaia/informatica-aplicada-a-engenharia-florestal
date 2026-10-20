@@ -85,7 +85,7 @@ Conceitos de organização, armazenamento e consulta de dados.
 <span class="links">[Slides](aulas/04-banco-de-dados/aula.html) ·
 [Notas](aulas/04-banco-de-dados/notas.qmd) ·
 [Atividades](aulas/04-banco-de-dados/atividades.qmd) ·
-[Gabaritos](aulas/04-banco-de-dados/gabaritos.qmd)</span>
+[Gabaritos](aulas/04-banco-de-dados/ggabaritos.qmd)</span>
 </div>
 :::
 
