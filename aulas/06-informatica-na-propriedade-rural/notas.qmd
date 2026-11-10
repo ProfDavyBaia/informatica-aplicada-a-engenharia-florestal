@@ -9,6 +9,19 @@ operacionais, processadores de texto, planilhas eletrônicas, banco de dados
 e redes — mostrando como eles se aplicam, de forma combinada, à gestão do
 dia a dia de uma propriedade rural.
 
+## Um Dia de Trabalho com as Ferramentas
+
+Um exemplo simples ajuda a enxergar como as ferramentas se encaixam: pela
+manhã, o produtor confere e-mails e os dados enviados pelos sensores de
+campo (**redes**); em seguida, atualiza a planilha de produção e custos do
+mês (**planilha eletrônica**); quando precisa comparar com medições
+anteriores, consulta o histórico guardado no banco de dados de talhões
+(**banco de dados**); ao final do dia, escreve um relatório para a
+gerência ou para um órgão financiador (**processador de texto**); e tudo
+isso fica organizado em pastas bem estruturadas no computador da sede
+(**sistema operacional**). Nenhuma dessas ferramentas resolve tudo
+sozinha — o valor está em usá-las de forma integrada.
+
 ## Exemplos de Uso
 
 - Controle financeiro e de custos de produção em planilhas ou softwares de
@@ -18,9 +31,17 @@ dia a dia de uma propriedade rural.
 - Softwares específicos de gestão agropecuária e florestal.
 - Sensoriamento remoto aplicado à agricultura e à silvicultura de precisão.
 
-## Tendências
+## Tendências — Agro 4.0
 
 O setor tem avançado com o uso de automação e Internet das Coisas (IoT) —
 sensores instalados no campo que coletam dados em tempo real —, além do uso
 de drones para monitoramento de áreas e da integração de diferentes fontes
-de dados em plataformas únicas de gestão.
+de dados em plataformas únicas de gestão. Esse movimento, muitas vezes
+chamado de **Agro 4.0** (ou Agricultura 4.0), aposta em decisões cada vez
+mais guiadas por dados, e não apenas pela experiência prática do produtor —
+sem substituí-la, mas somando-se a ela.
+
+## Material da Aula
+
+- [Atividades](atividades.qmd) — plano de gestão integrada da propriedade
+- [Gabaritos](gabaritos.qmd) — pontos esperados na resposta

@@ -12,19 +12,39 @@ format:
 
 - Sistema de Informação Geográfica: coleta, armazena, analisa e apresenta
   dados georreferenciados
-- Une banco de dados a informação espacial (mapas)
+- Une **banco de dados** (Aula 04) a **informação espacial** (mapas)
 
-## Componentes de um SIG
+## Dados Vetoriais × Raster
 
-- Dados vetoriais (pontos, linhas, polígonos) e dados raster (imagens/grade)
-- Camadas (layers) sobrepostas em um mapa
-- Exemplos de software: QGIS, ArcGIS
+- **Vetorial**: pontos (ex.: a sede), linhas (ex.: uma estrada, um rio) e
+  polígonos (ex.: o limite de um talhão)
+- **Raster**: uma grade de células com valores — ex.: uma imagem de
+  satélite ou de drone
+
+## Camadas (Layers)
+
+- Um mapa em um SIG é montado sobrepondo várias **camadas**
+- Ex.: camada de talhões (polígono) + camada de estradas (linha) + camada
+  de imagem de satélite (raster) — cada uma pode ser ligada/desligada
+
+## SIG × Banco de Dados
+
+- Cada elemento vetorial carrega uma **tabela de atributos** — como uma
+  tabela de banco de dados (Aula 04)
+- Ex.: cada talhão (polígono) tem um registro com `TalhaoID`, Espécie,
+  Área — a diferença é que agora esse registro tem uma localização
 
 ## Aplicações no Manejo Florestal
 
 - Delimitação e cadastro de talhões e áreas de manejo
 - Cruzamento de dados de imagens de satélite/drone com informações de campo
 - Apoio ao planejamento e monitoramento de áreas florestais
+- Software livre: **QGIS**; proprietário: **ArcGIS**
+
+## Atividade
+
+- [Atividades](atividades.qmd) — organizar a propriedade em camadas de SIG
+- [Gabaritos](gabaritos.qmd) — proposta de solução de referência
 
 ## Dúvidas?
 

@@ -13,6 +13,14 @@ format:
 - Integração dos conceitos vistos: SO, editores, planilhas, banco de dados, redes
 - Aplicação direta na gestão da propriedade rural
 
+## Um Dia de Trabalho com as Ferramentas
+
+- Manhã: confere e-mails e dados dos sensores de campo (**redes**)
+- Atualiza a planilha de produção e custos (**planilha eletrônica**)
+- Consulta o histórico de medições de um talhão (**banco de dados**)
+- Escreve um relatório para a gerência (**processador de texto**)
+- Organiza tudo em pastas no computador da sede (**sistema operacional**)
+
 ## Exemplos de Uso
 
 - Controle financeiro e de custos de produção
@@ -20,11 +28,17 @@ format:
 - Softwares de gestão agropecuária e florestal
 - Sensoriamento remoto e agricultura/silvicultura de precisão
 
-## Tendências
+## Tendências — Agro 4.0
 
 - Automação e IoT (sensores no campo)
 - Uso de drones para monitoramento
-- Integração de dados em plataformas de gestão
+- Integração de dados em plataformas únicas de gestão
+- Decisões cada vez mais guiadas por dados, não só por experiência
+
+## Atividade
+
+- [Atividades](atividades.qmd) — plano de gestão integrada da propriedade
+- [Gabaritos](gabaritos.qmd) — pontos esperados na resposta
 
 ## Dúvidas?
 

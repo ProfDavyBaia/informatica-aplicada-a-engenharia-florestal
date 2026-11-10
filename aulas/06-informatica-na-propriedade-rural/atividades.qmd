@@ -1,0 +1,41 @@
+---
+title: "Atividades — Informática na Propriedade Rural"
+---
+
+## Atividade — Plano de Gestão Integrada da Propriedade
+
+Esta é uma atividade de **síntese**: não usa nenhuma ferramenta nova, mas
+pede para reunir, num único documento, como cada assunto visto na
+disciplina se aplicaria à mesma propriedade (sede + talhões T1 a T4) usada
+nas atividades anteriores.
+
+**Objetivo:** demonstrar a integração entre os temas da disciplina na
+gestão de uma propriedade rural real.
+
+### O que fazer
+
+Escreva um relatório curto (1 a 2 páginas), usando um processador de texto
+e aplicando as boas práticas de formatação vistas na Aula 02 (títulos com
+estilo, não formatação manual), contendo um parágrafo para cada item
+abaixo:
+
+1. **Sistema Operacional** — como organizar os arquivos da propriedade no
+   computador da sede (pode reaproveitar a estrutura de pastas da
+   Atividade Avaliativa 1).
+2. **Processador de Texto** — quais documentos a propriedade produziria
+   regularmente (relatórios, ofícios, contratos) e por quê.
+3. **Planilha Eletrônica** — quais controles seriam mantidos em planilha
+   (ex.: produção e custos, como na Aula 03) e que decisões eles ajudam a
+   tomar.
+4. **Banco de Dados** — que cadastros fariam sentido ter em um banco de
+   dados (ex.: o banco de talhões e medições da Aula 04) e por que não
+   bastaria uma planilha simples.
+5. **Redes** — como a rede projetada na Aula 05 (sede + sensores nos
+   talhões) ajudaria no dia a dia da gestão.
+6. **Tendência (Agro 4.0)** — escolha **uma** tendência vista em aula (IoT,
+   drones, integração de dados) e explique, num parágrafo, como ela
+   poderia melhorar a gestão dessa propriedade específica.
+
+**Entrega:** arquivo exportado em PDF, nomeado
+`plano_gestao_integrada.pdf`.
+<!-- TODO: definir e preencher a data de entrega -->

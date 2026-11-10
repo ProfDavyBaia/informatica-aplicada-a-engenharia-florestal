@@ -1,0 +1,68 @@
+---
+title: "Gabaritos — Noções de Sistemas de Informação Geográfica"
+---
+
+Proposta de solução de referência para a atividade de organização da
+propriedade em camadas de SIG.
+
+## 1. Classificação dos Elementos
+
+| Elemento | Tipo | Classificação |
+|---|---|---|
+| Talhões (T1 a T4) | Vetorial | Polígono |
+| Sede | Vetorial | Ponto |
+| Estrada de acesso | Vetorial | Linha |
+| Rio | Vetorial | Linha |
+| (Imagem de satélite/drone de fundo, se houvesse) | Raster | Grade de células |
+
+*Observação:* o mapa da atividade foi desenhado só com elementos
+vetoriais — não há componente raster nele. Se o aluno perceber e apontar
+isso (em vez de forçar algum elemento como "raster"), também está
+correto; o importante é reconhecer que um SIG de uma propriedade real
+normalmente também teria uma camada raster de base (ex.: a imagem de
+satélite ou drone sobre a qual os polígonos são desenhados).
+
+## 2. Lista de Camadas (exemplo, da base para o topo)
+
+1. **Imagem de satélite/drone** (raster) — camada de fundo, usada como
+   referência visual
+2. **Rio** (vetorial, linha)
+3. **Talhões** (vetorial, polígono)
+4. **Estrada de acesso** (vetorial, linha)
+5. **Sede** (vetorial, ponto) — no topo, por ser um ponto de referência
+   importante
+
+## 3. Tabela de Atributos — Camada "Talhões"
+
+| TalhaoID | Espécie | Área (ha) |
+|:--------:|---------|:---------:|
+| T1 | Eucalipto | 5.0 |
+| T2 | Eucalipto | 4.2 |
+| T3 | Pinus | 5.8 |
+| T4 | Pinus | 4.6 |
+
+(É a mesma estrutura da aba "Talhoes" da atividade de Banco de Dados da
+Aula 04 — a diferença é que, no SIG, cada linha também está associada a
+um polígono no mapa.)
+
+## 4. Perguntas sobre o Mapa
+
+a) **Área total por espécie**: Eucalipto (T1 + T2) = 5,0 + 4,2 = **9,2
+   ha**; Pinus (T3 + T4) = 5,8 + 4,6 = **10,4 ha**.
+
+b) O talhão mais próximo da sede, no mapa, é o **T1** (ligado à sede pela
+   estrada de acesso, que chega na borda superior do talhão T1/T2). Essa
+   proximidade pode favorecer, por exemplo, priorizar a colheita ou o
+   transporte desse talhão primeiro, por reduzir distância e custo de
+   deslocamento.
+
+## 5. Questão Conceitual
+
+Organizar os dados em um SIG, em vez de só uma planilha ou banco de dados
+comum, permite responder perguntas que dependem de **localização e
+distância** — como "qual talhão está mais perto da sede ou de uma
+estrada", "quais talhões são vizinhos", ou "qual a área total coberta por
+uma espécie" — de forma visual e automática. Uma planilha ou banco de
+dados sem informação espacial guarda os mesmos atributos (espécie, área),
+mas não sabe **onde** cada talhão está nem como eles se posicionam uns em
+relação aos outros.

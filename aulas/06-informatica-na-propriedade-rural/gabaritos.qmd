@@ -1,0 +1,20 @@
+---
+title: "Gabaritos — Informática na Propriedade Rural"
+---
+
+Esta atividade é de resposta aberta — não existe um único texto "correto".
+O que se avalia é se cada parágrafo mostra que o conceito foi entendido e
+aplicado ao cenário da propriedade. Abaixo, os pontos esperados em cada
+item.
+
+| Item | O que se espera na resposta |
+|---|---|
+| Sistema Operacional | Estrutura de pastas coerente (ex.: por talhão, por tipo de documento, por ano), reconhecendo a diferença entre hardware e software quando relevante. |
+| Processador de Texto | Cita documentos plausíveis (relatórios técnicos, ofícios, contratos) e justifica a necessidade de formatação padronizada (estilos, cabeçalho/rodapé). |
+| Planilha Eletrônica | Reconhece o uso de fórmulas para cálculos recorrentes (produção, custo, produtividade) e cita que isso apoia decisões financeiras ou de manejo. |
+| Banco de Dados | Explica que um banco de dados organiza cadastros maiores e relacionados (talhões × medições) de forma mais confiável que uma planilha solta, citando chave primária/estrangeira ou integridade referencial. |
+| Redes | Relaciona a rede da Aula 05 (sede + sensores via LoRa, conexão WAN com a internet) ao monitoramento remoto e à tomada de decisão mais rápida. |
+| Tendência (Agro 4.0) | Escolhe uma tendência e explica um benefício concreto e plausível para esta propriedade específica (não apenas repete a definição genérica da aula). |
+
+**Critério geral:** cada item deve mostrar a aplicação do conceito ao
+cenário da propriedade — não basta repetir a definição teórica da aula.

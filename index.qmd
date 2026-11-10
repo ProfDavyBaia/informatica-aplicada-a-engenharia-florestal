@@ -84,8 +84,8 @@ Conceitos de organização, armazenamento e consulta de dados.
 
 <span class="links">[Slides](aulas/04-banco-de-dados/aula.html) ·
 [Notas](aulas/04-banco-de-dados/notas.qmd) ·
-[Atividades](aulas/04-banco-de-dados/atividades.qmd) ·
-[Gabaritos](aulas/04-banco-de-dados/ggabaritos.qmd)</span>
+[Atividades](aulas/04-banco-de-dados/atividades.qmd)</span>
+<!-- [Gabaritos](aulas/04-banco-de-dados/gabaritos.qmd) — oculto até o fim do prazo da atividade -->
 </div>
 :::
 
@@ -98,12 +98,11 @@ Fundamentos de redes e o uso da internet como ferramenta de trabalho.
 
 <span class="links">[Slides](aulas/05-redes-e-internet/aula.html) ·
 [Notas](aulas/05-redes-e-internet/notas.qmd) ·
-[Atividades](aulas/05-redes-e-internet/atividades.qmd) ·
-[Gabaritos](aulas/05-redes-e-internet/gabaritos.qmd)</span>
+[Atividades](aulas/05-redes-e-internet/atividades.qmd)</span>
+<!-- [Gabaritos](aulas/05-redes-e-internet/gabaritos.qmd) — oculto até o fim do prazo da atividade -->
 </div>
 :::
 
-<!--
 :::{.aula-card}
 <div class="numero">06</div>
 <div>
@@ -112,7 +111,9 @@ Fundamentos de redes e o uso da internet como ferramenta de trabalho.
 Aplicações práticas da informática na gestão da propriedade rural.
 
 <span class="links">[Slides](aulas/06-informatica-na-propriedade-rural/aula.html) ·
-[Notas](aulas/06-informatica-na-propriedade-rural/notas.qmd)</span>
+[Notas](aulas/06-informatica-na-propriedade-rural/notas.qmd) ·
+[Atividades](aulas/06-informatica-na-propriedade-rural/atividades.qmd)</span>
+<!-- [Gabaritos](aulas/06-informatica-na-propriedade-rural/gabaritos.qmd) — oculto até o fim do prazo da atividade -->
 </div>
 :::
 
@@ -124,10 +125,11 @@ Aplicações práticas da informática na gestão da propriedade rural.
 Introdução a SIG e seu uso no manejo e monitoramento florestal.
 
 <span class="links">[Slides](aulas/07-sig/aula.html) ·
-[Notas](aulas/07-sig/notas.qmd)</span>
+[Notas](aulas/07-sig/notas.qmd) ·
+[Atividades](aulas/07-sig/atividades.qmd)</span>
+<!-- [Gabaritos](aulas/07-sig/gabaritos.qmd) — oculto até o fim do prazo da atividade -->
 </div>
 :::
--->
 
 ## Ementa {#ementa}
 
@@ -166,7 +168,9 @@ TODO: preencher a coluna Data quando o calendário do semestre for confirmado
 <!-- TODO: demais critérios, instrumentos e pesos -->
 
 - [Atividade Avaliativa 1 — Aulas 00 a 03](avaliacoes/avaliativa-01-aulas-00-03.qmd)
-  (trabalho em grupo de 3 integrantes, 10,0 pontos)
+  (trabalho em grupo de 4 integrantes, 10,0 pontos)
+- [Atividade Avaliativa 2 — Aulas 04 a 07](avaliacoes/avaliativa-02-aulas-04-07.qmd)
+  (trabalho em grupo de 4 integrantes, 10,0 pontos)
 
 ## Bibliografia {#bibliografia}
 

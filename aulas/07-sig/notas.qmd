@@ -7,21 +7,46 @@ title: "Notas — Aula 07: Noções de Sistemas de Informação Geográfica"
 Um Sistema de Informação Geográfica (SIG) é um conjunto de ferramentas para
 coletar, armazenar, analisar e apresentar dados georreferenciados — ou
 seja, dados associados a uma localização no espaço. Na prática, um SIG une
-um banco de dados a informações espaciais representadas em mapas.
+um **banco de dados** (visto na Aula 04) a informações espaciais
+representadas em mapas.
 
-## Componentes de um SIG
+## Dados Vetoriais × Raster
 
-- **Dados vetoriais**: representados por pontos, linhas e polígonos (por
-  exemplo, o limite de um talhão).
-- **Dados raster**: representados por uma grade de células, como uma
-  imagem de satélite ou de drone.
-- Um mapa em um SIG é montado a partir da sobreposição de várias
-  **camadas** (layers) de dados vetoriais e/ou raster.
-- Exemplos de software: QGIS (livre) e ArcGIS (proprietário).
+- **Dados vetoriais**: representados por pontos, linhas e polígonos — por
+  exemplo, um ponto para a sede da propriedade, uma linha para uma estrada
+  ou curso d'água, e um polígono para o limite de um talhão.
+- **Dados raster**: representados por uma grade de células, cada uma com
+  um valor — como uma imagem de satélite ou de drone, ou um mapa de
+  elevação do terreno.
+
+## Camadas (Layers)
+
+Um mapa em um SIG é montado a partir da sobreposição de várias
+**camadas** (layers) de dados vetoriais e/ou raster — por exemplo, uma
+camada de talhões (polígonos), uma camada de estradas (linhas) e uma
+camada de imagem de satélite (raster) como fundo. Cada camada pode ser
+exibida ou ocultada independentemente, o que ajuda a analisar os dados por
+partes.
+
+## SIG × Banco de Dados
+
+A diferença entre um SIG e um banco de dados comum (Aula 04) é que, no
+SIG, cada elemento vetorial carrega uma **tabela de atributos** — assim
+como uma tabela de banco de dados — mas agora associada a uma localização
+espacial. Por exemplo: cada talhão (um polígono no mapa) tem um registro
+com `TalhaoID`, Espécie e Área, exatamente como na atividade da Aula 04 —
+só que agora esse registro também "sabe" onde o talhão está.
 
 ## Aplicações no Manejo Florestal
 
 SIGs são amplamente usados na Engenharia Florestal para delimitar e
 cadastrar talhões e áreas de manejo, cruzar dados de imagens de satélite ou
 drone com informações coletadas em campo, e apoiar o planejamento e o
-monitoramento de áreas florestais ao longo do tempo.
+monitoramento de áreas florestais ao longo do tempo. O principal software
+livre da área é o **QGIS**; entre os proprietários, o mais conhecido é o
+**ArcGIS**.
+
+## Material da Aula
+
+- [Atividades](atividades.qmd) — organizar a propriedade em camadas de SIG
+- [Gabaritos](gabaritos.qmd) — proposta de solução de referência
