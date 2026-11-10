@@ -7,21 +7,61 @@ title: "Notas — Aula 05: Redes de Computadores e Internet"
 Uma rede de computadores é um conjunto de dispositivos conectados entre si
 para compartilhar dados e recursos (impressoras, arquivos, acesso à
 internet). As redes podem ser classificadas, por exemplo, em **LAN** (rede
-local, como a de um escritório) e **WAN** (rede de longa distância, como a
-própria internet), e podem ser cabeadas ou sem fio (Wi-Fi, dados móveis).
+local, como a de um escritório ou de uma sede rural) e **WAN** (rede de
+longa distância, como a própria internet), e podem ser cabeadas ou sem fio
+(Wi-Fi, rádio, dados móveis).
+
+## Topologias de Rede
+
+A topologia descreve como os dispositivos de uma rede estão ligados entre
+si:
+
+- **Estrela**: todos os dispositivos se conectam a um ponto central
+  (geralmente um roteador ou switch). É a topologia mais usada hoje, por
+  ser simples de montar e de diagnosticar problemas.
+- **Barramento**: todos os dispositivos compartilham um único cabo
+  central — modelo mais antigo, pouco usado atualmente.
+- **Malha**: cada dispositivo se conecta a vários outros, criando
+  múltiplos caminhos possíveis — mais resiliente, mas mais cara e
+  complexa de montar.
+
+## Dispositivos de Rede
+
+- **Modem**: converte o sinal recebido da operadora (satélite, rádio,
+  fibra, cabo) em um sinal de rede que os demais equipamentos entendem.
+- **Roteador**: direciona o tráfego entre a rede local e a internet, e
+  geralmente também distribui endereços IP para os dispositivos da rede.
+- **Switch**: interliga vários dispositivos por cabo dentro da mesma rede
+  local.
+- **Access Point (AP)**: distribui a rede local via Wi-Fi, estendendo a
+  cobertura sem fio.
+
+Em muitos roteadores domésticos/rurais, modem, roteador e AP vêm
+combinados em um único aparelho.
 
 ## Internet
 
 A internet é uma rede mundial de redes interconectadas, que utiliza um
 conjunto de protocolos — com destaque para o **TCP/IP** (endereçamento e
-transporte de dados) e o **HTTP/HTTPS** (transferência de páginas web). A
-partir dela são oferecidos serviços como navegação, e-mail, armazenamento
-em nuvem e videoconferência.
+transporte de dados) e o **HTTP/HTTPS** (transferência de páginas web).
+Cada dispositivo conectado recebe um **endereço IP**, que pode ser
+**público** (único e visível na internet, atribuído pela operadora) ou
+**privado** (válido só dentro da rede local, atribuído pelo roteador). A
+partir da internet são oferecidos serviços como navegação, e-mail,
+armazenamento em nuvem e videoconferência.
 
-## Aplicações no Meio Rural
+## Conectividade no Meio Rural
 
-A conectividade em áreas rurais costuma depender de tecnologias como
-internet via satélite, rádio ou redes móveis (4G/5G), muitas vezes com
-maior limitação do que em áreas urbanas. Ainda assim, ela viabiliza o
-acesso remoto a sistemas de gestão, o monitoramento de propriedades e o
-compartilhamento de dados coletados em campo.
+Em áreas rurais, nem sempre há cabeamento de fibra ou boa cobertura de
+4G/5G. As alternativas mais comuns incluem internet via **satélite** (como
+o Starlink), **rádio** ponto a ponto (uma antena na sede "enxergando" uma
+torre da operadora) e **4G/5G rural**, quando disponível. Para sensores
+espalhados pela propriedade (como estações de monitoramento em talhões),
+costuma-se usar redes de **baixo consumo** e longo alcance — como o
+LoRa — em vez de Wi-Fi comum, já que o Wi-Fi tem alcance curto e consome
+mais bateria.
+
+## Material da Aula
+
+- [Atividades](atividades.qmd) — projetar a rede de uma propriedade rural
+- [Gabaritos](gabaritos.qmd) — proposta de solução de referência

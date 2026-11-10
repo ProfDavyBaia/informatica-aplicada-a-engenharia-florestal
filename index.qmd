@@ -89,7 +89,6 @@ Conceitos de organização, armazenamento e consulta de dados.
 </div>
 :::
 
-<!--
 :::{.aula-card}
 <div class="numero">05</div>
 <div>
@@ -98,10 +97,13 @@ Conceitos de organização, armazenamento e consulta de dados.
 Fundamentos de redes e o uso da internet como ferramenta de trabalho.
 
 <span class="links">[Slides](aulas/05-redes-e-internet/aula.html) ·
-[Notas](aulas/05-redes-e-internet/notas.qmd)</span>
+[Notas](aulas/05-redes-e-internet/notas.qmd) ·
+[Atividades](aulas/05-redes-e-internet/atividades.qmd) ·
+[Gabaritos](aulas/05-redes-e-internet/gabaritos.qmd)</span>
 </div>
 :::
 
+<!--
 :::{.aula-card}
 <div class="numero">06</div>
 <div>

@@ -1,0 +1,42 @@
+---
+title: "Atividades — Redes de Computadores e Internet"
+---
+
+## Atividade — Projetar a Rede de uma Propriedade Rural
+
+**Cenário:** a mesma propriedade das atividades anteriores, com uma sede
+administrativa e os talhões T1, T2, T3 e T4. Vocês foram chamados para
+projetar a rede que vai conectar a sede à internet e permitir o
+monitoramento remoto de sensores de campo instalados em cada talhão.
+
+**Objetivo:** aplicar os conceitos de topologia, dispositivos de rede e
+conectividade rural num cenário prático.
+
+### O que fazer
+
+1. **Escolha a conectividade com a internet** para a sede (satélite,
+   rádio ou 4G/5G rural) e justifique a escolha considerando que a
+   propriedade fica longe da área urbana.
+2. **Desenhe um diagrama** (à mão e fotografado, ou em qualquer ferramenta
+   — PowerPoint, Google Slides/Drawings, draw.io, Canva etc.) mostrando:
+   - a sede, com modem/roteador e um Access Point Wi-Fi;
+   - a conexão da sede com a internet (o tipo escolhido no item 1);
+   - um sensor de campo em cada talhão (T1 a T4), conectado à sede por uma
+     rede de baixo consumo (ex.: LoRa) em vez de Wi-Fi comum;
+   - um computador ou tablet na sede, usado para acessar os dados.
+3. **Identifique a topologia** usada no seu diagrama (estrela, barramento
+   ou malha) e justifique.
+4. **Monte uma tabela** listando cada dispositivo do diagrama, o tipo de
+   conexão (cabeada ou sem fio) e sua função na rede.
+5. **Responda:**
+   a) Por que a conexão da sede com a internet é uma WAN, e a rede dentro
+      da propriedade é uma LAN?
+   b) Por que usar uma rede de baixo consumo (LoRa) para os sensores dos
+      talhões, em vez de Wi-Fi comum?
+   c) Que vantagem a topologia estrela traz para esse cenário, comparada a
+      uma topologia em malha?
+
+**Entrega:** uma imagem do diagrama (foto ou captura de tela) + a tabela
+de dispositivos + as respostas das perguntas, em um único documento (PDF
+ou imagem).
+<!-- TODO: definir e preencher a data de entrega -->

@@ -11,20 +11,44 @@ format:
 ## Redes de Computadores
 
 - Conjunto de dispositivos conectados que compartilham dados e recursos
-- Tipos: LAN (local), WAN (longa distância)
-- Redes com/sem fio (cabeada, Wi-Fi, dados móveis)
+- **LAN**: rede local (um escritório, uma sede)
+- **WAN**: rede de longa distância (a própria internet)
+- Redes cabeadas ou sem fio (Wi-Fi, rádio, dados móveis)
+
+## Topologias de Rede
+
+- **Estrela**: todos os dispositivos conectados a um ponto central (roteador/switch) — a mais comum hoje
+- **Barramento**: todos ligados a um único cabo central
+- **Malha**: cada dispositivo conectado a vários outros, com múltiplos caminhos
+
+## Dispositivos de Rede
+
+- **Modem**: converte o sinal da operadora em rede local
+- **Roteador**: direciona o tráfego entre a rede local e a internet
+- **Switch**: interliga vários dispositivos cabeados na mesma rede
+- **Access Point (AP)**: distribui a rede via Wi-Fi
 
 ## Internet
 
 - Rede mundial de redes interconectadas
-- Protocolos: TCP/IP, HTTP/HTTPS
+- Protocolos: **TCP/IP** (endereçamento e transporte), **HTTP/HTTPS**
+  (páginas web)
+- Endereço IP: identifica cada dispositivo na rede — pode ser **público**
+  (visível na internet) ou **privado** (só dentro da rede local)
 - Serviços: navegação, e-mail, nuvem, videoconferência
 
-## Aplicações no Meio Rural
+## Conectividade no Meio Rural
 
-- Conectividade em áreas rurais (satélite, rádio, 4G/5G)
-- Acesso remoto a sistemas de gestão e monitoramento
-- Compartilhamento de dados de campo em tempo real
+- Nem sempre há cabeamento ou boa cobertura 4G/5G no campo
+- Alternativas: internet via **satélite** (ex.: Starlink), **rádio** ponto
+  a ponto, **4G/5G** rural
+- Sensores de campo costumam usar redes de **baixo consumo** (ex.: LoRa)
+  em vez de Wi-Fi comum, por causa do alcance e da bateria
+
+## Atividade
+
+- [Atividades](atividades.qmd) — projetar a rede de uma propriedade rural
+- [Gabaritos](gabaritos.qmd) — proposta de solução de referência
 
 ## Dúvidas?
 

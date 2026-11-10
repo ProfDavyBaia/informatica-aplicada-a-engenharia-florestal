@@ -1,0 +1,58 @@
+---
+title: "Gabaritos — Redes de Computadores e Internet"
+---
+
+Proposta de solução de referência para a atividade de projeto de rede
+rural. O diagrama exato pode variar — o que se avalia é se os elementos e
+conceitos abaixo aparecem corretamente.
+
+## Diagrama — Elementos Esperados
+
+- **Sede**: modem/roteador conectado à internet + Access Point Wi-Fi +
+  computador/tablet para acessar os dados.
+- **Conexão com a internet**: satélite, rádio ou 4G/5G rural (qualquer
+  uma é aceitável, desde que justificada — satélite e rádio costumam ser
+  as opções mais realistas para propriedades bem afastadas da área
+  urbana).
+- **Talhões T1 a T4**: um sensor de campo em cada um, conectado à sede por
+  rede de baixo consumo (LoRa ou equivalente), não por Wi-Fi comum.
+
+## Topologia
+
+**Estrela**, com a sede (roteador/AP) como ponto central — tanto o
+computador/tablet da sede quanto os sensores dos talhões se conectam a
+esse ponto central, não entre si diretamente.
+
+## Tabela de Dispositivos (exemplo)
+
+| Dispositivo | Tipo de conexão | Função |
+|---|---|---|
+| Roteador (sede) | Cabeada (até o modem) | Direciona o tráfego entre a rede local e a internet |
+| Access Point (sede) | — | Distribui Wi-Fi na sede |
+| Computador/tablet (sede) | Sem fio (Wi-Fi) | Acessa e analisa os dados recebidos dos sensores |
+| Sensor — Talhão T1 | Sem fio (LoRa) | Coleta dados de campo e envia à sede |
+| Sensor — Talhão T2 | Sem fio (LoRa) | Coleta dados de campo e envia à sede |
+| Sensor — Talhão T3 | Sem fio (LoRa) | Coleta dados de campo e envia à sede |
+| Sensor — Talhão T4 | Sem fio (LoRa) | Coleta dados de campo e envia à sede |
+
+## Perguntas
+
+a) A conexão da sede com a internet é uma **WAN** porque liga a
+   propriedade a uma rede de longa distância, fora do controle do
+   proprietário (a internet). A rede dentro da propriedade — sede e
+   sensores — é uma **LAN**, por estar restrita a uma área local e sob
+   controle de quem a administra.
+
+b) Redes de baixo consumo como o LoRa alcançam distâncias muito maiores
+   que o Wi-Fi comum (quilômetros, em vez de dezenas de metros) e gastam
+   muito menos bateria — essencial para sensores espalhados por talhões
+   distantes da sede e sem fonte de energia constante. O Wi-Fi comum
+   seria inviável nessa distância e exigiria trocar baterias com muito
+   mais frequência.
+
+c) Na topologia estrela, cada dispositivo (sensor ou computador) se
+   conecta diretamente ao ponto central — se um sensor falhar, os demais
+   continuam funcionando normalmente, e é fácil identificar qual ponto
+   está com problema. Numa malha, cada dispositivo precisaria de vários
+   links para os outros, o que é mais caro e mais complexo de montar e
+   manter para um cenário desse porte.
